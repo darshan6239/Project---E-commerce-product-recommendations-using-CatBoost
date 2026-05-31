@@ -11,6 +11,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 #  Step 2: Load the Dataset
 import pandas as pd
+
 df = pd.read_excel('Online-Retail.xlsx')
 df.head()
 
