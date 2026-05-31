@@ -17,7 +17,6 @@ df.head()
 
 #  Step 3: Data Preprocessing
 df.dropna(inplace=True)
-
 df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])
 
 df['TotalPrice'] = df['Quantity'] * df['UnitPrice']
